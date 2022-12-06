@@ -325,11 +325,12 @@ width:400px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
    }
 
-   /* .abouttextblock * p {
-    grid-column-start: 1/ span 2;
-   } */
+
+
+  
 
    .navlinks{
     justify-content: space-around;

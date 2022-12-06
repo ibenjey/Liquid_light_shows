@@ -4,45 +4,130 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href = "dist/css/lightbox.css" rel = "stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Light Shows</title>
+    <title>Liquid Dream Machine Gallery</title>
 </head>
 <body>
-        
+   
         <header>
             <a class = "skip" href="">Skip to Main Content </a>
+            
+           
           <nav>
             <ul class="nav_links">
-                <li class = "active"><a href="index.html">About</a></li>
-                <li><a href="process.html">Process</a></li>
+                <li class = "active"><a href="index.html">Liquid Dream Machine</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
+                <li><a href ="about.html"> About</a></li>
             </ul>
           </nav>  
+         
           
         </header>
 
        
-        <main>
-             <!-- gallery  -->
-        <div class = "gallery" id="gal"> 
-            <img src = "images/blue_orange.jpg" width="200" height = "250" alt="liquid light show orange"/>
-            <img src = "images/bubbles.jpg" width="200" height = "250" alt="liquid light show with soap"/>
-            <img src= "images/bright_rainbow.jpg" width="200" height = "250" alt="liquid light show bright"/>
-            <img src = "images/purple_green.jpg" width="200" height = "250" alt="liquid light show purple"/>
-            <img src = "images/purple_yellow.jpg" width="200" height = "250" alt = "liquid light show yellow"/> 
-            <img src = "images/green_orange.jpg" width="200" height = "250" alt="liquid light show orange"/>
-            <img src = "images/red_pink.jpg" width="200" height = "250" alt="liquid light show red"/>
-            <img src = "images/yellow_orange.jpg" width="200" height = "250" alt="liquid light show green and orange"/>
-            <img src = "images/teal.jpg" width="200" height = "250" alt="liquid light show teal"/>
+        <main class="gallery_main" id = "main">
+<div>
+    <h1>Gallery of Dreams</h1>
+</div>
+          
+           
+
+    <div class = "gallery" >
+        <a href = "images/blue_orange.jpg" target = "_blank" 
+        data-lightbox = "Liquid Lights" 
+        data-title = "Liquid Light Show Projection" 
+        data-alt = "Blue and Orange Light Show Projection">
+            <img src= "images/blue_orange.jpg" alt="liquid light show orange">
+        </a>
+           
+        <a href = "images/stealie.jpg" target = "_blank" 
+        data-lightbox = "Liquid Lights" 
+        data-title = "Liquid Light Show projection" 
+        data-alt = "Multi-colored Light Show Projection">
+         <img src = "images/stealie.jpg"  alt="close up photo of lightshow"/>
+         </a>
+        
+         <a href = "images/bubbles.jpg" target = "_blank" 
+         data-lightbox = "Liquid Lights" 
+         data-title = "Liquid Light Show projection" 
+         data-alt = " Pink and Blue Light Show Projection">
+            <img src = "images/bubbles.jpg"  alt="liquid light show with soap"/>
+        </a>
+
+        <a href = "images/purple_green.jpg" target = "_blank" 
+         data-lightbox = "Liquid Lights" 
+         data-title = "Liquid Light Show projection" 
+         data-alt = " Purple and Green Light Show Projection">
+            <img src = "images/purple_green.jpg"  alt="liquid light show purple"/>
+        </a>
+       
+        <a href = "images/purple_yellow.jpg" target = "_blank" 
+         data-lightbox = "Liquid Lights" 
+         data-title = "Liquid Light Show Projection" 
+         data-alt = " Purple, Green, and Yellow Light Show Projection">
+            <img src = "images/purple_yellow.jpg"  alt = "liquid light show yellow"/>
+         </a>
             
+         <a href = "images/green_orange.jpg" target = "_blank" 
+         data-lightbox = "Liquid Lights" 
+         data-title = "Liquid Light Show Projection" 
+         data-alt = "Green and Orange Light Show Projection">
+            <img src = "images/green_orange.jpg"  alt="liquid light show orange"/>
+         </a>
             
+         <a href = "images/bright_rainbow.jpg"  target = "_blank" 
+         data-lightbox = "Liquid Lights" 
+         data-title = "Liquid Light Show Projection" 
+         data-alt = " Rainbow colors Light Show Projection">
+            <img src= "images/bright_rainbow.jpg"  alt="liquid light show bright"/>
+        </a>
+            
+        <a href = "images/red_pink.jpg"  target = "_blank" 
+        data-lightbox = "Liquid Lights" 
+        data-title = "Liquid Light Show projection" 
+        data-alt = " Red and Pink Light Show Projection">  
+         <img src = "images/red_pink.jpg"  alt="liquid light show red"/>
+         </a>
+            
+         <a href = "images/yellow_orange.jpg"  target = "_blank" 
+        data-lightbox = "Liquid Lights" 
+        data-title = "Liquid Light Show projection" 
+        data-alt = "Yellow and orange Light Show Projection">    
+            <img src = "images/yellow_orange.jpg"  alt="liquid light show green and orange"/>
+        </a>
+          
+        <a href = "images/green_yellow.jpg"  target = "_blank" 
+        data-lightbox = "Liquid Lights" 
+        data-title = "Liquid Light Show projection" 
+        data-alt = "Green and Yellow Light Show Projection"> 
+            <img src = "images/green_yellow.jpg"  alt="liquid light show green and yellow"/>
+        </a>
+
+        <a href = "images/teal.jpg"   target = "_blank" 
+        data-lightbox = "Liquid Lights" 
+        data-title = "Liquid Light Show projection" 
+        data-alt = "Teal Light Show Projection"> 
+            <img src = "images/teal.jpg"  alt="liquid light show teal"/>
+        </a>
+        <a href = "images/blue_orange_pink.jpg"   target = "_blank" 
+        data-lightbox = "Liquid Lights" 
+        data-title = "Liquid Light Show Projection" 
+        data-alt = "Blue, Orange and Pink Light Show Projection">   
+            <img src = "images/blue_orange_pink.jpg"  alt="liquid light show with squish plate"/>
+        </a>
+
         </div>
-              
+       
             </main>
-    
-        <footer>
-            add content 
-        </footer>
+            <script src="dist/js/lightbox-plus-jquery.js"></script>
+        
+            <footer>
+                Liquid Dream Machine est. 2015
+              </footer>
+     
     </body>
     </html>
+
+

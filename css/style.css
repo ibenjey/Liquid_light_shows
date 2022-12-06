@@ -30,10 +30,22 @@ h2{
 
   nav li{
     display:inline;
-    padding: 15px 10px 15px 10px;
+    padding: 2px 10px 15px 10px;
     margin-left: 10px;
    
   
+  }
+
+  .active{
+    border-top: 10px solid black;
+  }
+  nav{
+    width: 100%;
+  }
+
+  .navlinks{
+    display: flex;
+    justify-content: center;
   }
   
   nav a{
@@ -92,7 +104,7 @@ a.skip:focus{
   }
 
   .abouttextblock{
-    background-image: url("/images/about.jpg");
+    /* background-image: ("/images/about.jpg"); */
     padding: 20px;
       margin: 10px;}
 
@@ -192,7 +204,7 @@ a.skip:focus{
     display: flex;
     flex-direction: row;
   }
-  nav{
+  .navlinks{
   flex-direction: row;
   justify-content: flex-end;
 
@@ -309,7 +321,19 @@ width:400px;
 
    }
 
-   
+   .abouttextblock{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+   }
+
+   /* .abouttextblock * p {
+    grid-column-start: 1/ span 2;
+   } */
+
+   .navlinks{
+    justify-content: space-around;
+   }
   }
 
 

@@ -37,7 +37,7 @@ h2{
   }
 
   .active{
-    border-top: 10px solid black;
+    border-top: 2px solid black;
   }
   nav{
     width: 100%;
